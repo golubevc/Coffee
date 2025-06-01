@@ -1,8 +1,8 @@
 package service
 
 import (
-	"internal/model"
-	"internal/repository"
+	"github.com/golubevc/coffee/internal/model"
+	"github.com/golubevc/coffee/internal/repository"
 )
 
 type CoffeeService struct {

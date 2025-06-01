@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"encoding/json"
 	"net/http"
-	"service"
 
 	"github.com/golubevc/coffee/internal/repository"
+	"github.com/golubevc/coffee/internal/service"
 )
 
 type CoffeeHandler struct {

@@ -1,8 +1,9 @@
 package repository
 
 import (
-	"coffee/internal/model"
 	"database/sql"
+
+	"github.com/golubevc/coffee/internal/model"
 )
 
 type CoffeeRepository struct {
