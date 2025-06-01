@@ -1,10 +1,11 @@
 package main
 
 import (
-	"coffee-service/internal/handler"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/golubevc/coffee/internal/handler"
 )
 
 func main() {
