@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"coffee-service/internal/model"
+	"coffee/internal/model"
 	"database/sql"
 )
 

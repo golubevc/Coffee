@@ -1,10 +1,12 @@
 package handler
 
 import (
-	"coffee/internal/service"
 	"database/sql"
 	"encoding/json"
 	"net/http"
+	"service"
+
+	"github.com/golubevc/coffee/internal/repository"
 )
 
 type CoffeeHandler struct {
